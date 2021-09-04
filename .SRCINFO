@@ -6,6 +6,7 @@ pkgbase = mingw-w64-imgui
 	arch = any
 	license = MIT
 	makedepends = mingw-w64-cmake
+	makedepends = wget
 	depends = mingw-w64-crt
 	options = !buildflags
 	options = staticlibs
@@ -14,4 +15,3 @@ pkgbase = mingw-w64-imgui
 	sha256sums = f7c619e03a06c0f25e8f47262dbc32d61fd033d2c91796812bf0f8c94fca78fb
 
 pkgname = mingw-w64-imgui
-
